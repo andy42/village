@@ -13,19 +13,18 @@ gradlew runApt
 ```
 gradle build --refresh-dependencies might fail but just carry on
 
+### IntelliJ idea setup
 open IntelliJ idea
 File->open
 select village
 
-
-### Add Configuration (Run/Debug Configuration)
+run->Edit Configuration
 press add cross symbol in the top left of the Run/Debug Configuration window
 select Application from the dropdown
 give the Configuration name
 set the values for
 Main class: co.uk.genesisengineers.village.AppKt
 use classpath of module: village_main
-
 
 ## update resources
 game assets are stored in the src/main/res folder
