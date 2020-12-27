@@ -1,0 +1,25 @@
+<LinearLayout xmlns:ge="http://www.w3.org/2001/XMLSchema-instance"
+              ge:noNamespaceSchemaLocation="layout_schema.xsd"
+              id="container"
+              layout_width="MATCH_PARENT"
+              layout_height="WRAP_CONTENT"
+              orientation="horizontal"
+              background="@color/red"
+gravity="left">
+    <FrameLayout
+            id="selectView"
+            layout_width="30"
+            layout_height="30">
+        <View background="@color/purple" layout_width="10" layout_height="10"/>
+    </FrameLayout>
+    <TextView
+            id="nameView"
+            layout_width="WRAP_CONTENT"
+            layout_height="WRAP_CONTENT"
+            text="title : 000"/>
+    <View
+            id="hideView"
+            background="@textures/icon_hide_png"
+            layout_width="20"
+            layout_height="20"/>
+</LinearLayout>

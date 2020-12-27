@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:ge="http://www.w3.org/2001/XMLSchema-instance"
+              ge:noNamespaceSchemaLocation="layout_schema.xsd"
+        layout_width="WRAP_CONTENT"
+        layout_height="250"
+        orientation="vertical">
+    <LinearLayout
+            layout_width="WRAP_CONTENT"
+            layout_height="WRAP_CONTENT"
+            orientation="horizontal">
+        <TextView
+                layout_width="WRAP_CONTENT"
+                layout_height="WRAP_CONTENT"
+                text="Name : "/>
+        <TextView
+                id="name"
+                layout_width="WRAP_CONTENT"
+                layout_height="WRAP_CONTENT"
+                text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+            layout_width="WRAP_CONTENT"
+            layout_height="WRAP_CONTENT"
+            orientation="horizontal">
+        <TextView
+                layout_width="WRAP_CONTENT"
+                layout_height="WRAP_CONTENT"
+                text="Proto Type : "/>
+        <TextView
+                id="protoType"
+                layout_width="WRAP_CONTENT"
+                layout_height="WRAP_CONTENT"
+                text=""/>
+    </LinearLayout>
+    <RecyclerView
+            id="recyclerView"
+            background="@color/red"
+            layout_width="MATCH_PARENT"
+            layout_height="MATCH_PARENT"/>
+</LinearLayout>

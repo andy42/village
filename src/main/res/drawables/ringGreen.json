@@ -1,0 +1,5 @@
+{
+  "type":"drawableColor",
+  "shape":"@shapes/ring_json",
+  "color":"#00ff00"
+}

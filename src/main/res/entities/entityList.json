@@ -1,0 +1,29 @@
+[
+  {
+    "id":"player",
+    "components":[
+      {
+        "type":"Position"
+      }, {
+        "type":"Collision",
+        "dimensions":"25,25"
+      }, {
+        "type":"Movement",
+        "startPosition":"100,100"
+      }, {
+        "type":"BasicDrawable",
+        "dimensions":"25,25",
+        "drawableId":"@drawables/text_json",
+
+        "rotation":0.0
+       }, {
+        "type":"Select",
+        "dimensions":"30,30",
+        "textureId":0,
+        "textureRegionIndex":0
+      }, {
+        "type":"KeyboardController"
+      }
+    ]
+  }
+]

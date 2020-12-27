@@ -1,0 +1,5 @@
+{
+  "dimensions":3,
+  "vertices":"0f,1f, 0.0f,0f,0f,0f,1f,1f,0.0f,1f,0f,0f",
+  "drawType":"strip"
+}

@@ -1,0 +1,10 @@
+{
+  "type":"drawableTextureArray",
+  "shape":"@shapes/square_json",
+  "texture":"@textures/walls_png",
+  "itemWidth":64,
+  "itemHeight":64,
+  "itemCount":216,
+  "columns":24,
+  "emptyIndexes":"8-23, 32-47,56-71,80-95,104-119,128-143,152-167,176-191"
+}

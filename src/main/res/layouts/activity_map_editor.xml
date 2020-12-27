@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:ge="http://www.w3.org/2001/XMLSchema-instance"
+      ge:noNamespaceSchemaLocation="layout_schema.xsd"
+        layout_width="500"
+              layout_height="400"
+      orientation="vertical">
+    <View id="dragBar" layout_width="MATCH_PARENT" layout_height="20" background="@color/dragBarColor"/>
+    <LinearLayout
+            layout_width="MATCH_PARENT"
+            layout_height="WRAP_CONTENT"
+            orientation="horizontal"
+            background="@color/light_grey"
+            padding_top="10"
+            padding_bottom="10"
+            gravity="left">
+        <Button
+                id="saveBtn"
+                layout_width="WRAP_CONTENT"
+                layout_height="WRAP_CONTENT"
+                text="Save"
+                background="@color/green"
+                background_pressed="@color/red"
+                margin_left="10"/>
+        <Button
+                id="loadBtn"
+                layout_width="WRAP_CONTENT"
+                layout_height="WRAP_CONTENT"
+                margin_left="10"
+                text="Load"
+                background="@color/green"
+                background_pressed="@color/red"/>
+        <TextView
+                id="mapNameView"
+                layout_width="WRAP_CONTENT"
+                layout_height="WRAP_CONTENT"
+                margin_left="10"
+                text="map1"/>
+    </LinearLayout>
+    <View id="layerContainer"
+          layout_width="MATCH_PARENT"
+          layout_height="WRAP_CONTENT"/>
+
+    <LinearLayout
+            id="navbar"
+            layout_width="MATCH_PARENT"
+            layout_height="WRAP_CONTENT"
+            orientation="horizontal"
+            background="@color/light_grey">
+            <FrameLayout
+                    id="backButton"
+                    layout_width="WRAP_CONTENT"
+                    layout_height="WRAP_CONTENT">
+                <View
+                        layout_width="25"
+                        layout_height="25"
+                        margin_left="2"
+                        margin_right="2"
+                        margin_top="2"
+                        margin_bottom="2"
+                        background="@drawables/backArrow_json"/>
+            </FrameLayout>
+            <TextView
+                    id="navbarTitle"
+                    layout_width="0"
+                    layout_height="WRAP_CONTENT"
+                    layout_weight="1"
+                    margin_left="5"
+                    text="Walls"/>
+    </LinearLayout>
+  <View id="tilePickerContainer"
+          layout_width="MATCH_PARENT"
+        layout_height="0"
+        layout_weight="1"/>
+</LinearLayout>

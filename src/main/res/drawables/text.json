@@ -1,0 +1,5 @@
+{
+  "type":"drawableTexture",
+  "shape":"@shapes/square_json",
+  "texture":"@textures/test_texture_png"
+}

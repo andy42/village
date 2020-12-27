@@ -1,0 +1,5 @@
+[
+  {"type":"id", "name":"paint"},
+  {"type":"id", "name":"fill"},
+  {"type":"id", "name":"eraser"}
+]

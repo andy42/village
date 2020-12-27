@@ -1,0 +1,14 @@
+rootProject.name = 'village'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.alexvasilkov:gradle-git-dependencies:2.0.2'
+    }
+}
+
+apply plugin: 'com.alexvasilkov.git-dependencies'
+
+//include ':core'

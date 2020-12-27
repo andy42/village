@@ -1,0 +1,7 @@
+<RecyclerView xmlns:ge="http://www.w3.org/2001/XMLSchema-instance"
+              ge:noNamespaceSchemaLocation="layout_schema.xsd"
+              id="recyclerView"
+              background="@color/red"
+              layout_width="MATCH_PARENT"
+              layout_height="0"
+              layout_weight="1"/>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:ge="http://www.w3.org/2001/XMLSchema-instance"
+              ge:noNamespaceSchemaLocation="layout_schema.xsd"
+              layout_width="WRAP_CONTENT"
+              layout_height="WRAP_CONTENT"
+              orientation="vertical">
+<TextView
+        id="title"
+        layout_width="WRAP_CONTENT"
+        layout_height="WRAP_CONTENT"
+        text="title : 000"/>
+<TextView
+        id="value"
+        layout_width="WRAP_CONTENT"
+        layout_height="WRAP_CONTENT"
+        text="value : 000"/>
+</LinearLayout>

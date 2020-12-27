@@ -1,0 +1,54 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.2.51'
+    id 'java-base'
+}
+
+group 'co.uk.genesisengineers'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+git {
+    implementation 'http://github.com/andy42/co.uk.genesisengineers.core.git', {
+        name 'co.uk.genesisengineers.core'
+        commit 'ded2f3aee66c2d49454f3ce97845c9f0de1cb78b'
+    }
+}
+
+dependencies {
+    
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+ 
+sourceSets.main {
+    resources {
+        srcDirs = ['build/generated/resources', 'src/main/resources']
+    }
+    kotlin {
+        srcDirs ('build/generated/kotlin','src/main/kotlin')
+    }
+    java {
+        srcDirs ('build/generated/java','src/main/java')
+    }
+}
+
+
+
+task runApt(type:Exec) {
+    commandLine 'java', '-jar', 'apt.jar'
+    args 'co.uk.genesisengineers.village'
+}
+
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}

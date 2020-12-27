@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:ge="http://www.w3.org/2001/XMLSchema-instance"
+              ge:noNamespaceSchemaLocation="layout_schema.xsd"
+              layout_width="MATCH_PARENT"
+              layout_height="WRAP_CONTENT">
+    <ImageView
+            id="image"
+            layout_width="MATCH_PARENT"
+            layout_height="WRAP_CONTENT"
+            margin_left="2"
+            margin_right="2"
+            margin_top="2"
+            margin_bottom="2"/>
+    <ImageView id="selected" layout_width="0" layout_height="0" drawable="@drawables/selected_json" layout_fill="true"/>
+</FrameLayout>

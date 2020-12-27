@@ -1,0 +1,9 @@
+[
+  {"type":"component", "name":"select"},
+  {"type":"component", "name":"position"},
+  {"type":"component", "name":"movement"},
+  {"type":"component", "name":"mapSquare"},
+  {"type":"component", "name":"keyboardController"},
+  {"type":"component", "name":"Collision"},
+  {"type":"component", "name":"BasicDrawable"}
+]

@@ -1,0 +1,5 @@
+{
+  "type":"drawableColor",
+  "shape":"@shapes/square_json",
+  "color":"#ff0000"
+}
