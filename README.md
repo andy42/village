@@ -27,12 +27,12 @@ Main class: co.uk.genesisengineers.village.AppKt
 use classpath of module: village_main
 
 ## update resources
-game assets are stored in the src/main/res folder
-files in these folders are then passed and copied to src/main/resources folder
+game assets are stored in the src/main/res folder. files in these folders are then passed and copied to
+src/main/resources folder
 do not change files in the resources folder, as any changes will be over overridden
 
 each file in Res is then added to the R class in  build/generated/kotlin/R.kt
-you can the use this class to refrence all files in the res folder
+you can use this class to reference all files in the res folder
 e.g. R.drawables.backArrow_json
 this will resolve to an integer that maps to the files details in src/main/resources/assets.json
 
