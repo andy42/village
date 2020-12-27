@@ -8,6 +8,7 @@
 .DS_Store
 /out
 /captures
+/libs
 .externalNativeBuild
 /co.uk.genesisengineers.core
 /src/main/resources/
