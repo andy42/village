@@ -2,7 +2,7 @@
 
 ## project setup
 
-open cmd and cd to IdeaProjects dir
+open cmd and cd to IdeaProjects dir  
 then run
 ```
 git clone https://github.com/andy42/village.git
@@ -14,27 +14,27 @@ gradlew runApt
 gradle build --refresh-dependencies might fail but just carry on
 
 ### IntelliJ idea setup
-open IntelliJ idea
-File->open
-select village
+open IntelliJ idea  
+File->open  
+select village  
 
-run->Edit Configuration
-press add cross symbol in the top left of the Run/Debug Configuration window
-select Application from the dropdown
-give the Configuration name
-set the values for
-Main class: co.uk.genesisengineers.village.AppKt
-use classpath of module: village_main
+run->Edit Configuration  
+press add cross symbol in the top left of the Run/Debug Configuration window  
+select Application from the dropdown  
+give the Configuration name  
+set the values for  
+Main class: co.uk.genesisengineers.village.AppKt  
+use classpath of module: village_main  
 
 ## update resources
-game assets are stored in the src/main/res folder. files in these folders are then passed and copied to
-src/main/resources folder
-do not change files in the resources folder, as any changes will be over overridden
+game assets are stored in the src/main/res folder. files in these folders are then passed and copied to  
+src/main/resources folder  
+do not change files in the resources folder, as any changes will be over overridden  
 
-each file in Res is then added to the R class in  build/generated/kotlin/R.kt
-you can use this class to reference all files in the res folder
-e.g. R.drawables.backArrow_json
-this will resolve to an integer that maps to the files details in src/main/resources/assets.json
+each file in Res is then added to the R class in  build/generated/kotlin/R.kt  
+you can use this class to reference all files in the res folder  
+e.g. R.drawables.backArrow_json  
+this will resolve to an integer that maps to the files details in src/main/resources/assets.json  
 
 to run the task that will pass the files in res folder run in the root project
 ```
@@ -42,9 +42,9 @@ gradlew runApt
 ```
  or
 
-in IntelliJ idea open build.gradle
-find task "task runApt(type:Exec)""
-click the green arrow to the left of the name
+in IntelliJ idea open build.gradle  
+find task "task runApt(type:Exec)""  
+click the green arrow to the left of the name  
 
 
 
